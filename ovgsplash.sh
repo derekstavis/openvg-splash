@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SPLASH_BIN=./ovgsplash
+SPLASH_BIN=./ovgsplash.bin
 SPLASH_IMAGE=images/back.jpg
 FIFO=FIFO
 
@@ -20,15 +20,3 @@ end_splash() {
 	pkill -TERM -P $PID
 	rm $FIFO
 }
-
-init_splash $SPLASH_IMAGE
-
-sleep 5
-
-change_screen "images/screen.jpg"
-
-sleep 5
-
-end_splash
-
-echo "Finished"
