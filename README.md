@@ -2,7 +2,7 @@ openvg-splash
 =============
 
 This is a very simple tool to ease the plot of JPG images using OpenVG.
-It is heavily based on @ajstaks libshapes. You can learn how to download
+It is heavily based on @ajstarks libshapes. You can learn how to download
 and install it here: [ajstarks/openvg](https://github.com/ajstarks/openvg)
 
 # How to build
