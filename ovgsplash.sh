@@ -1,7 +1,6 @@
 #!/bin/bash
 
 SPLASH_BIN=./ovgsplash.bin
-SPLASH_IMAGE=images/back.jpg
 FIFO=FIFO
 
 change_screen() {
